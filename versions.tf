@@ -13,10 +13,10 @@ terraform {
   required_version = ">= 0.15"
 
   backend "remote" {
-    organization = "<YOUR_TERRAFORM_ORG>"
+    organization = "TRACEBoard-NZ" 
 
-    workspaces {
-      name = "sentinel-example"
+    workspaces { 
+      name = "learn-terraform-sentinel" 
     }
   }
 
