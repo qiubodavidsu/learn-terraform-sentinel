@@ -11,7 +11,7 @@ terraform {
   }
 
   required_version = ">= 0.15"
-
+/*
   backend "remote" {
     organization = "TRACEBoard-NZ" 
 
@@ -19,5 +19,5 @@ terraform {
       name = "learn-terraform-sentinel" 
     }
   }
-
+*/
 }
